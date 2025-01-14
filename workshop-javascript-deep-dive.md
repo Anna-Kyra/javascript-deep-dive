@@ -93,3 +93,41 @@ Als je `debugger` in de code schrijft dan maak je met code handmatig een breakpo
 Je kan ook een breakpoint maken bij een DOM element dan doe je rechter mui > Break on > subtree modifications
 
 Je kan ook een atribute modifications doen, dan moet je een attribute hebben
+
+--- 
+
+callback = 
+
+Binding function 
+
+
+Een finally wordt altijd uitgevoerd bijvoerd het preventen van de default van de form submission after handling the logic
+
+Short Circuiting = het gebruik maken van die tekens ipv if statements voluit schrijven
+
+Immutablity:
+block haken zijn een array
+
+spread operator: 
+```js
+[...em0jis, newEmoji]
+```
+> alles wat al in de emojis object zit komt daarbij met die ...
+
+
+## Sveltekit project
+
+```js
+const { title, sprintNumber, startdate, content, etc. } = data
+```
+> zo hoef je dan in je html code geen dat voor alles staan
+
+Css private ding;
+
+```CSS
+ --_propertie: iets;
+```
+> dan is het gescoped in een property
+
+Dit is meer een conventie om te laten zien dat het gescoped is.
+
