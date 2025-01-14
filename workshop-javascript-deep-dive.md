@@ -42,8 +42,11 @@ Topics we encounter when using the debugger from the **Sources** tab in DevTools
 Opdracht Refactor your JavaScript:
 * Object destructuring
 * Short circuiting
+* Spread operator
 * One responsibility rule for functions
-* Pseudo-Private Custom Properties (CSS)
+* Pseudo-Private Custom Properties (CSS) // een private property, gaat eigenlijk over scope. Scope in CSS
+
+Bron: You Don't Know JS
 
 
 <!-- references -->
@@ -66,3 +69,27 @@ Modules zijn async bij default
 En die kan je awaiten, je hoeft dan geen function te schrijfen
 
 Wordt altijd uitgevoerd in strict mode = zelf uitzoeken
+
+
+Scope = function/blocks
+Context = objecten (this)
+
+Local scope = de algemene scope
+
+window = global scope
+
+Hoe staat de code op dat moment voor( de state van de code)
+
+Call stack = aan de hand van een concurrency model = wat kan er tegelijkertijd van code worden afgevoerd
+In javascript kan er niet tegelijkertijd code uitgevoerd worden want js is eeen single threaded
+
+Meer te leren van de source debugger = naar 'event loop'kijken
+
+event loop = zorgt dan de code gewoon doorgaat ook als het word onderbroken
+
+Als je `debugger` in de code schrijft dan maak je met code handmatig een breakpoint
+
+
+Je kan ook een breakpoint maken bij een DOM element dan doe je rechter mui > Break on > subtree modifications
+
+Je kan ook een atribute modifications doen, dan moet je een attribute hebben

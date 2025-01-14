@@ -7,7 +7,7 @@ const message = document.querySelector('.message');
 
 // Event Handling: Attach an event listener to generate a new emoji on button click.
 createEmojiBtn.addEventListener('click', function() {
-  updateDisplay(getFormattedEmojiEmoji()); // Passing the callback function for formatting
+  updateDisplay(getFormattedEmoji()); // Passing the callback function for formatting
 });
 
 // Defensive Programming: Add event listener to the form
@@ -47,7 +47,7 @@ function getEmojiInfo() {
   return { emoji, description: "Random Emoji" }; // Return an object with the emoji and description
 }
 
-function getFormattedEmojiEmoji() {
+function getFormattedEmoji() {
   // First-Class Functions: Returning a function that formats the emoji with additional info.
   return (emojiObject) => `Emoji: ${emojiObject.emoji} - Description: ${emojiObject.description}`; // using a string literal for formatting the emoji + description
 }
